@@ -1,6 +1,6 @@
 # Welcome here
 
-This is my directory where i stock my project , i will detail these project here
+This is my directory where i stock my projects , i will detail these projects here
 
 ## Myfirstdb
 
