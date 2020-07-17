@@ -14,7 +14,7 @@ Finally, the last step was to rank those into region and subregion collections.
 
 This is a project where the goal is to make a application in Node Js.
 The application will do :
-- Get data on a route
+- Get data on a road 
 
 ## Async/Await
 
