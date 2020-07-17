@@ -2,6 +2,14 @@
 
 This is my directory where i stock my project , i will detail these project here
 
+## Myfirstdb
+
+It was a project based on making a database by getting data from an API and convert it into a Mongodb collection.
+So the goal was to take all countries from the API.
+The first step was creating a collection fom the JSON containing this data.
+The next step was to take all the data from the collection created and create a new collection for each country.
+Finally, the last step was to rank those into region and subregion collections.
+
 ## Api Express
 
 This is a project where the goal is to make a application in Node Js.
