@@ -1,0 +1,467 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  width: 1440px;
+  height: 2048px;
+  background: url("img/backgroundCv.jpg") no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+@media screen and (max-width: 599px) {
+  body {
+    overflow-y: hidden;
+  }
+}
+
+.main {
+  width: 1540px;
+  height: 99%;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.63);
+}
+
+@media screen and (max-width: 599px) {
+  .main {
+    width: 100vw;
+    margin: 8px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .container1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .main .container2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .main .container3 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+}
+
+.container1 {
+  text-align: right;
+  margin-top: 600px;
+  width: 25%;
+}
+
+@media screen and (max-width: 599px) {
+  .container1 {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  .container1 p {
+    text-align: justify;
+  }
+  .container1 h2 {
+    text-align: center;
+  }
+  .container1 .trait {
+    position: initial;
+    width: 100vw;
+  }
+  .container1 .tech {
+    margin-top: 100px;
+  }
+  .container1 .tech p {
+    display: block;
+    width: 105px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .container1 .tech1 {
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .container1 .tech2 {
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .container1 .tech3 {
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .container1 .tech4 {
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+.container1 h2 {
+  text-align: center;
+}
+
+.container1 .trait {
+  position: relative;
+  right: 48px;
+}
+
+.container1 .tech {
+  margin-top: 100px;
+}
+
+.container1 .tech p {
+  display: block;
+  width: 105px;
+  height: 30px;
+  margin-right: 40px;
+}
+
+.container1 .tech1 {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.container1 .tech2 {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.container1 .tech3 {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.container1 .tech4 {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.container3 {
+  text-align: left;
+  margin-top: 600px;
+  width: 25%;
+}
+
+@media screen and (max-width: 599px) {
+  .container3 {
+    text-align: justify;
+    margin: 0;
+    width: 100vw;
+  }
+  .container3 h2 {
+    text-align: center;
+  }
+  .container3 h3 {
+    font-weight: bold;
+  }
+  .container3 .trait {
+    position: initial;
+  }
+  .container3 .skill {
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+  }
+  .container3 .skill p {
+    display: block;
+    width: 50px;
+    height: 35px;
+    margin-left: 40px;
+  }
+}
+
+.container3 h2 {
+  text-align: center;
+}
+
+.container3 h3 {
+  font-weight: bold;
+}
+
+.container3 .trait {
+  position: relative;
+  right: 48px;
+}
+
+.container3 .skill {
+  margin-top: 100px;
+  margin-right: 500px;
+  height: 40%;
+  width: 90%;
+}
+
+.container3 .skill p {
+  display: block;
+  width: 50px;
+  height: 35px;
+  margin-left: 40px;
+}
+
+.container3 .skill1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.container3 .skill2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.container3 .skill3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.container3 .skill4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.trait {
+  height: 2px;
+  background: black;
+  width: 484px;
+}
+
+.losange {
+  background: rgba(21, 21, 21, 0.85);
+  width: 48px;
+  height: 46px;
+  -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+          clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  margin: 10px 5px 0 5px;
+}
+
+.container2 {
+  background: rgba(21, 21, 21, 0.85);
+  margin-top: 300px;
+  color: #D9D9D9;
+  height: 1580px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.container2 .containerImg {
+  position: absolute;
+  top: 140px;
+  left: 630px;
+  background: rgba(217, 217, 217, 0.75);
+  -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+          clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  width: 298px;
+  height: 273px;
+}
+
+.container2 .containerImg img {
+  margin-left: 20px;
+  margin-top: 15px;
+  -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+          clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  width: 262px;
+  height: 232px;
+}
+
+.container2 .p p {
+  line-height: 64px;
+  margin-top: 60px;
+}
+
+.container2 .containerIcon {
+  margin-top: 150px;
+}
+
+.container2 .containerIcon .container2Icones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container2 .containerIcon .container2Icones img {
+  width: 74px;
+  height: 69px;
+}
+
+.container2 .containerIcon .container2Icones .icone1 {
+  -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+          clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  background: #D9D9D9;
+  width: 74px;
+  height: 69px;
+}
+
+.container2 .containerIcon .container2Icones .icone1 img {
+  margin-top: 4px;
+  width: 70px;
+  height: 60px;
+}
+
+.container2 .containerIcon .container2Icones .icone2 {
+  margin-left: 15px;
+  -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+          clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  background: #D9D9D9;
+  width: 74px;
+  height: 69px;
+}
+
+.container2 .containerIcon .container2Icones1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container2 .containerIcon .container2Icones1 .icone3 {
+  -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+          clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  background: #D9D9D9;
+  width: 74px;
+  height: 69px;
+}
+
+.container2 .containerIcon .container2Icones1 img {
+  -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+          clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  background: #D9D9D9;
+  width: 74px;
+  height: 69px;
+}
+
+@media screen and (max-width: 599px) {
+  .container2 {
+    margin: 0;
+    height: 170%;
+    text-align: justify;
+    padding: 0;
+  }
+  .container2 .containerImg {
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    width: 298px;
+    height: 273px;
+  }
+  .container2 .containerImg img {
+    -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+            clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    width: 262px;
+    height: 232px;
+  }
+  .container2 .p {
+    margin-top: 1400px;
+  }
+  .container2 .p p {
+    text-align: center;
+    line-height: 64px;
+    margin: 0;
+  }
+  .container2 .containerIcon {
+    margin-top: 20px;
+  }
+  .container2 .containerIcon .container2Icones img {
+    width: 74px;
+    height: 69px;
+  }
+  .container2 .containerIcon .container2Icones .icone1 img {
+    margin-top: 4px;
+    width: 70px;
+    height: 60px;
+  }
+  .container2 .containerIcon .container2Icones .icone2 {
+    margin-left: 15px;
+  }
+  .container2 .containerIcon .container2Icones1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .container2 .containerIcon .container2Icones1 .icone3 {
+    -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+            clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: #D9D9D9;
+    width: 74px;
+    height: 69px;
+  }
+  .container2 .containerIcon .container2Icones1 img {
+    -webkit-clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+            clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: #D9D9D9;
+    width: 74px;
+    height: 69px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
